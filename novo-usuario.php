@@ -7,13 +7,13 @@
     <input type="hidden" name="acao" value="cadastrar">
     
     <div class="mb-3">
-        <label for="inputPassword" class="col-sm-2 col-form-label">Nome</label>
+        <label for="inputNome" class="col-sm-2 col-form-label">Nome</label>
         <div class="col-sm-8">
             <input type="text" name="nome" class="form-control" id="inputNome">
         </div>
     </div>
     <div class="mb-3">
-        <label for="inputPassword" class="col-sm-2 col-form-label">Email</label>
+        <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
         <div class="col-sm-8">
             <input type="email" name="email" class="form-control" id="inputEmail">
         </div>
@@ -27,7 +27,7 @@
     </div>
 
     <div class="mb-3">
-        <label for="inputPassword" class="col col-form-label">Data Nascimento</label>
+        <label for="inputDate" class="col col-form-label">Data Nascimento</label>
         <div class="col-sm-8">
             <input type="date" name="data_nasc" class="form-control" id="inputDate">
         </div>
