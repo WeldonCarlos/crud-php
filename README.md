@@ -22,8 +22,9 @@ Este repositório contém uma aplicação simples de CRUD (Create, Read, Update,
 
 1. Clone este repositório em seu ambiente local.
 2. Configure seu servidor web (como Apache) para servir o diretório raiz da aplicação.
-3. Importe o arquivo SQL fornecido para criar a estrutura inicial do banco de dados.
-4. Acesse a aplicação via navegador e comece a usar as funcionalidades CRUD.
+3. Crie um banco de dados com o nome (cadastro) com a tabela(usuario) com os campos(id(int),nome(varchar),email(varchar),senha(int),data_nasc(varchar)).
+5. Crie uma conexão no banco de dados
+6. Acesse a aplicação via navegador e comece a usar as funcionalidades CRUD.
 
 ### Observações:
 Esta aplicação foi desenvolvida como parte de um projeto pessoal/acadêmico para demonstrar conceitos básicos de desenvolvimento web usando PHP e MySQL.
