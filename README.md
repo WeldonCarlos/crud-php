@@ -1,33 +1,44 @@
-## crud-php
+# CRUD de Usuários · PHP
 
-### Descrição:
-Este repositório contém uma aplicação simples de CRUD (Create, Read, Update, Delete) desenvolvida em PHP. A aplicação permite gerenciar informações de usuários em um sistema básico de cadastro.
+Aplicação acadêmica em PHP e MySQL para cadastrar, listar, editar e excluir usuários.
 
-### Recursos:
+## O que o projeto apresenta
 
-- Operações CRUD completas: Adicionar, visualizar, atualizar e excluir informações de usuários.
-- Interface de usuário simples e intuitiva.
-- Utiliza MySQL para o armazenamento de dados.
-- Segue boas práticas de programação e organização de código em PHP.
+- Cadastro e listagem de usuários.
+- Edição e exclusão de registros.
+- Formulários com Bootstrap.
+- Persistência por conexão MySQL.
 
-### Tecnologias utilizadas:
+## Tecnologias
 
-- PHP
-- MySQL (ou outro banco de dados compatível)
-- HTML/CSS (Bootstrap utilizado para o layout)
-- JavaScript (para interações na interface, se aplicável)
+PHP · MySQL · Bootstrap · HTML · CSS
 
+## Executar localmente
 
-### Instruções de Uso:
+```bash
+git clone https://github.com/WeldonCarlos/crud-php.git
+cd crud-php
+php -S localhost:8000
+```
 
-1. Clone este repositório em seu ambiente local.
-2. Configure seu servidor web (como Apache) para servir o diretório raiz da aplicação.
-3. Crie um banco de dados com o nome (cadastro) com a tabela(usuarios) com os campos(id(int),nome(varchar),email(varchar),senha(int),data_nasc(varchar)).
-5. Crie uma conexão no banco de dados
-6. Acesse a aplicação via navegador e comece a usar as funcionalidades CRUD.
+Requer PHP com a extensão MySQLi e um servidor MySQL configurado. Depois de preparar a conexão e as tabelas, acesse `http://localhost:8000`. Também é possível servir a pasta com Apache/XAMPP.
 
-### Observações:
-Esta aplicação foi desenvolvida como parte de um projeto pessoal/acadêmico para demonstrar conceitos básicos de desenvolvimento web usando PHP e MySQL.
-Sinta-se à vontade para explorar e modificar o código conforme necessário.
+## Estrutura
 
+- `README.md`
+- `config.php`
+- `css/`
+- `editar-usuario.php`
+- `index.php`
+- `js/`
+- `listar-usuarios.php`
+- `novo-usuario.php`
+- `salvar-usuario.php`
 
+## Estado atual
+
+Configure `config.php` e crie a tabela `usuarios` com campos `id`, `nome`, `email`, `senha` e `data_nasc`, conforme o código. O projeto utiliza SQL concatenado e MD5 para senhas; exige revisão antes de uso real.
+
+## Autoria
+
+[Weldon Carlos](https://github.com/WeldonCarlos) · [LinkedIn](https://www.linkedin.com/in/weldon-carlos-41b488231/)
